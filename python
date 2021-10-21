@@ -1,0 +1,46 @@
+---1
+
+U = int(input("Какая скорость в км/ч?"))
+T = int(input("Сколько часов оно двигалось?"))
+print('Пройденное расстояние')
+print('----------')
+for T in range(1, T+1, 1):
+   S = U*T
+   print(T, "     ", S)
+   
+---2
+
+Sum = 0
+while(True):
+    k = int(input())
+    if(k < 0):
+        break
+    else:
+        sum+= k
+print(Sum) 
+
+---3
+
+Num = int(input("Число: "))
+Result = 1
+for i in range(Num):
+    Result = Result * (i+1)
+print("Факториал: ", Result) 
+
+---4
+
+ST = int(input())
+R = int(input())
+D = int(input())
+print('день \t популяция')
+for i in range(1, D+1):
+    print(i, '\t', "%.3f" % ST)
+    start *= 1+(R/100) 
+
+---5
+
+for i in range(1, 7):
+    print('#', end='')
+    for j in range(1 , i):
+        print(' ', end='')
+    print('#')
